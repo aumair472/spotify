@@ -1,0 +1,72 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+ padding: 10px;   
+}
+
+/* Custom scrollbar styles for webkit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background for the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a4a4a; /* Dark gray color for the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #1e1e1e; /* Adds some space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6a6a6a; /* Lighter gray on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #8a8a8a; /* Even lighter gray when active */
+}
+
+/* Custom scrollbar styles for Firefox */
+* {
+    scrollbar-width: thin; /* Sets the scrollbar width to be thin */
+    scrollbar-color: #4a4a4a #1e1e1e; /* Thumb and track colors */
+}
